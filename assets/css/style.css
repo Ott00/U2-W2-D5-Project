@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* --text-color: #ACAFB0; */
@@ -114,6 +117,57 @@ footer i:hover {
   color: #fdfdfd;
 }
 
+footer p:last-child {
+  font-size: 10px;
+  color: #a0a0a0;
+}
+
+/* PROFILE PAGE  */
+
+.custom-width {
+  width: 500px;
+}
+
+.row img {
+  width: 100%;
+}
+
+.form-control {
+  width: 90%;
+  background-color: #a0a0a0;
+  color: white;
+  border-radius: 0;
+  border: none;
+  padding: 0.3rem 0.5rem;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+.form-control:focus {
+  background-color: #a0a0a0;
+  color: white;
+}
+
+.custom-select-profile {
+  background-color: black;
+  color: #fdfdfd;
+  border-radius: 0;
+  border: 1px solid #fdfdfd;
+  width: 30%;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.custom-select-profile:hover {
+  border: 1px solid white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* BUTTON GENERAL  */
+
 .general-btn {
   background-color: #141414;
   color: #fdfdfd;
@@ -126,7 +180,25 @@ footer i:hover {
   border: 2px solid #fdfdfd;
 }
 
-footer p:last-child {
-  font-size: 10px;
-  color: #a0a0a0;
+.custom-btn1 {
+  display: block;
+  background-color: #282828;
+  font-size: 0.8rem;
+}
+
+.custom-btn1 + p {
+  font-size: 0.9rem;
+}
+
+.custom-btn2 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #282828;
+  border: 2px solid #282828;
+  padding: 0.5rem 1.5rem;
+}
+
+.custom-btn2:hover {
+  background-color: #fdfdfd;
+  color: #282828;
 }
