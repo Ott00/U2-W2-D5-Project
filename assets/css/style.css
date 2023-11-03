@@ -23,6 +23,18 @@ body {
   color: #a0a0a0;
 }
 
+.nav-right-close i {
+  color: #a0a0a0;
+}
+
+.nav-right-close i:hover {
+  color: white;
+}
+
+.navbar-toggler:hover {
+  opacity: 0.8;
+}
+
 .nav-item > a:hover,
 .nav-right > a:hover,
 .nav-right i:hover {
@@ -50,6 +62,24 @@ body {
   border: 1px solid #a0a0a0;
   background-color: #fdfdfd;
   margin-right: 11px;
+}
+
+.link-to-user-profile {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background-color: #141414;
+  padding: 0.3rem;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
 }
 
 /* MAIN  */
