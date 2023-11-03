@@ -215,3 +215,36 @@ footer p:last-child {
 .pen-icon:hover {
   opacity: 0.8;
 }
+
+/* CUSTOM CHECKBOX  */
+
+.form-check-input {
+  background-color: #282828;
+  border: 1px solid #a0a0a0;
+  padding: 0.7rem;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+}
+
+.form-check-input:hover {
+  background-color: #282828;
+  border: 1px solid #a0a0a0;
+  padding: 0.7rem;
+}
+
+.form-check-input:focus {
+  background-color: #282828;
+  border: 1px solid #a0a0a0;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #282828;
+  border: 1px solid #a0a0a0;
+}
+
+.form-check-input + label {
+  font-size: 0.85rem;
+}
