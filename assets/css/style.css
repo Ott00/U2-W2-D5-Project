@@ -202,3 +202,16 @@ footer p:last-child {
   background-color: #fdfdfd;
   color: #282828;
 }
+
+.pen-icon {
+  background-color: #282828;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.pen-icon:hover {
+  opacity: 0.8;
+}
