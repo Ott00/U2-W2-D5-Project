@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --text-color: #ACAFB0; */
+
+body {
+  background-color: #141414;
+  color: #fdfdfd;
+}
+
+/* NAVBAR  */
+.nav-item > a,
+.nav-right > a,
+.nav-right i {
+  color: #a0a0a0;
+}
+
+.nav-item > a:hover,
+.nav-right > a:hover,
+.nav-right i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.open-nav a,
+.open-nav i {
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.open-nav a:hover,
+.open-nav i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.open-nav div:hover {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  border: 1px solid #a0a0a0;
+  background-color: #fdfdfd;
+  margin-right: 11px;
+}
+
+/* MAIN  */
+
+.custom-select {
+  background-color: black;
+  color: #fdfdfd;
+  border-radius: 0;
+  border: 1px solid #fdfdfd;
+}
+
+.custom-select:hover {
+  border: 1px solid white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn-show {
+  padding: 0.3rem 0.8rem;
+  background-color: #141414;
+  color: #a0a0a0;
+  border: 1px solid #282828;
+}
+
+.btn-show:hover {
+  color: #fdfdfd;
+  border: 1px solid #fdfdfd;
+}
+
+.custom-padding-container {
+  padding-inline: 3.7rem;
+}
+
+/* FILM SECTION  */
+
+section img {
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+section img:hover {
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+/* FOOTER  */
+
+footer {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+footer .social {
+  color: #a0a0a0;
+}
+
+footer .row a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+footer a:hover,
+footer i:hover {
+  color: #fdfdfd;
+}
+
+.general-btn {
+  background-color: #141414;
+  color: #fdfdfd;
+  border: 2px solid #282828;
+  padding: 0.3rem 0.5rem;
+  font-size: 10px;
+}
+
+.general-btn:hover {
+  border: 2px solid #fdfdfd;
+}
+
+footer p:last-child {
+  font-size: 10px;
+  color: #a0a0a0;
+}
